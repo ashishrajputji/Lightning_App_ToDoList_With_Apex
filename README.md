@@ -1,3 +1,8 @@
+📌 To-Do List Lightning Web Component (LWC) 🚀 This is a Salesforce Lightning Web Component (LWC) To-Do List App that enables users to add, update, delete, and view tasks. The app is backed by Apex controllers for seamless CRUD operations and utilizes custom objects in Salesforce.
+
+🔥 Features ✅ Create new tasks with Name, Status, and Due Date ✅ View a dynamic list of tasks sorted by creation date ✅ Edit existing tasks and update their details ✅ Delete tasks with a single click ✅ Uses @wire and refreshApex for real-time updates ✅ Toast notifications for success and error handling
+
+💻 Technologies Used Lightning Web Components (LWC) Apex Controller SOQL Queries Salesforce Custom Object (Task__c) Platform Events & Cacheable Apex Methods 📂 Project Structure lua Copy Edit |-- force-app | |-- main | | |-- default | | | |-- lwc | | | | |-- toDoList | | | | | |-- toDoList.html | | | | | |-- toDoList.js | | | | | |-- toDoList.js-meta.xml | | |-- classes | | | |-- ToDoController.cls | | | |-- ToDoController.cls-meta.xml
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
